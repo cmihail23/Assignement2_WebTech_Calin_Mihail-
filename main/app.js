@@ -5,7 +5,7 @@ function addTokens(input, tokens) {
     if (input.length < 6) {
         throw new Error('Input should have at least 6 characters')
     }
-
+        
     if (tokens==null) {
         throw new Error('Invalid array format')
     }
